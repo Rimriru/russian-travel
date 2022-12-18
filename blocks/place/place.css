@@ -1,5 +1,14 @@
 .place {
+  max-width: calc(100% - 148*2);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, max-content);
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(3, 50%);
+  gap: 40px 48px;
+  /* display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;  */
+}
+
+.place:not(:last-child) {
+  margin-bottom: 80px;
 }
