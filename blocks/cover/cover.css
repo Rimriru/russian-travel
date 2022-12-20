@@ -1,5 +1,9 @@
 .cover {
   width: calc(100% - 2*48px);
+  max-height: 740px;
   margin: 0 auto 92px;
   text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
 }
