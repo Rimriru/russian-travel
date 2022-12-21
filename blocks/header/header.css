@@ -1,15 +1,21 @@
 .header {
   width: calc(100% - 2*48px);
   padding-top: 28px;
-  margin: 0 48px 56px;
+  margin: 0 auto 56px;
   display: flex;
   justify-content: space-between;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     width: calc(100% - 2*24px);
-    margin: 0 24px 48px;
   }
 }
 
@@ -17,6 +23,5 @@
   .header {
     width: calc(100% - 2*16px);
     padding-top: 16px;
-    margin: 0 16px 48px;
   }
 }

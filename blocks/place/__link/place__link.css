@@ -4,4 +4,9 @@
   line-height: 1.22;
   color: inherit;
   margin: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.place__link:hover {
+  opacity: .6;
 }

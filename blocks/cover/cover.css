@@ -1,9 +1,25 @@
 .cover {
   width: calc(100% - 2*48px);
-  max-height: 740px;
   margin: 0 auto 92px;
   text-align: center;
   position: relative;
   box-sizing: border-box;
-  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-bottom: 64px;
+  }
 }

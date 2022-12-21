@@ -1,14 +1,37 @@
 .place {
-  max-width: calc(100% - 148*2);
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, max-content);
-  grid-template-rows: repeat(3, 50%);
+  grid-template-columns: max-content fit-content(90%);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 40px 48px;
-  /* display: flex;
-  flex-flow: row wrap;
-  box-sizing: border-box;  */
+  color: #fff;
 }
 
-.place:not(:last-child) {
-  margin-bottom: 80px;
+
+@media screen and (max-width: 1024px) {
+  .place {
+    row-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    row-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .place {
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(4, max-content);
+    column-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, max-content);
+    column-gap: 32px;
+  }
 }
