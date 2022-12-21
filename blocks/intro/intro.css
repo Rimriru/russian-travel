@@ -12,26 +12,14 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
+    width: calc(100% - 2*24px);
     margin: 0 auto 88px;
-  }
-}
-
-@media screen and (max-width: 656px) {
-  .intro {
-    max-width: 565px;
-  }
-}
-
-@media screen and (max-width: 512px) {
-  .intro {
-    max-width: 450px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    max-width: 288px;
+    width: calc(100% - 2*16px);
     margin-bottom: 64px;
   }
 }
