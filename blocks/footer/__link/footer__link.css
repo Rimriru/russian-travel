@@ -5,10 +5,7 @@
   color: #fff;
   text-decoration: none;
   transition: opacity .3s ease-in-out;
-}
-
-.footer__link:not(:last-child) {
-  margin-right: 18px;
+  margin: 0;
 }
 
 .footer__link:hover {
@@ -19,6 +16,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 1;
-    margin: 0;
   }
 }
