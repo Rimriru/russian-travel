@@ -7,10 +7,6 @@
   transition: opacity .3s ease-in-out;
 }
 
-.header__lang-link:not(:last-child) {
-  margin-right: 18px;
-}
-
 .header__lang-link:hover {
   opacity: .6;
 }
