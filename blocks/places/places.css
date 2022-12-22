@@ -1,5 +1,5 @@
 .places {
-  width: calc(100% - 2*148px);
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   margin: 0 auto 92px;
@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1152px) {
   .places {
-    width: calc(100% - 2*80px);
+    max-width: 950px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: calc(100% - 2*48px);
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    width: calc(100% - 2*24px);
+    max-width: 720px;
     margin-bottom: 90px;
     gap: 72px;
   }
@@ -28,7 +28,8 @@
 
 @media screen and (max-width: 580px) {
   .places {
-    width: calc(100% - 2*12px);
+    max-width: 500px;
+    width: 100%;
     margin-bottom: 75px;
     gap: 61px;
   }
@@ -36,7 +37,6 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    width: 100%;
     margin-bottom: 66px;
     gap: 50px;
   }

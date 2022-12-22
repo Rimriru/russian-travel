@@ -5,16 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="images/logos/header__logo.png" alt="Россия">
-    <div class="header__lang-box">
-      <p class="header__lang-link header__lang-link_selected">Ru</p>
-      <p class="header__lang-link">En</p>
-    </div>
+    <img class="header__logo" src="images/logos/header__logo.svg" alt="Россия">
+    <ul class="header__lang-box">
+      <li class="header__lang-link header__lang-link_selected">
+        <a>Ru</a>
+      </li>
+      <li class="header__lang-link">
+        <a>En</a>
+      </li>
+    </ul>
   </header>
   <main>
     <section class="lead">
@@ -27,14 +30,14 @@
       <h2 class="intro__title">Чего&nbsp;мы&nbsp;там не&nbsp;видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li><span class="bold-font">Часовых поясов</span> 11</li>
-        <li><span class="bold-font">Объектов природного наследия ЮНЕСКО</span> 12</li>
-        <li><span class="bold-font">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-        <li><span class="bold-font">Природных заповедников</span> 105</li>
-        <li><span class="bold-font">Аэропортов</span> 241</li>
+        <li><span class="intro__item-bold">Часовых поясов</span> 11</li>
+        <li><span class="intro__item-bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+        <li><span class="intro__item-bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+        <li><span class="intro__item-bold">Природных заповедников</span> 105</li>
+        <li><span class="intro__item-bold">Аэропортов</span> 241</li>
       </ul>
     </section>
-    <section class="photo-grid">
+    <section class="photo-grid" aria-label="Фотогалерея">
       <img src="images/trains.jpg" alt="Вид из поезда" class="photo-grid__item">
       <img src="images/mountain.jpg" alt="Гора с облаками" class="photo-grid__item">
       <img src="images/dog.jpg" alt="Собака на привале" class="photo-grid__item">
@@ -48,7 +51,7 @@
       <img src="images/mountain5.jpg" alt="Зимняя гора" class="photo-grid__item">
       <img src="images/mountain6.jpg" alt="Гора в тумане" class="photo-grid__item">
     </section>
-    <section class="places">
+    <section class="places" aria-label="Популярные места России">
       <article class="place">
         <h3 class="place__title">Куршская коса</h3>
         <div class="place__website">

@@ -3,20 +3,20 @@
   display: grid;
   grid-template-columns: max-content fit-content(90%);
   grid-template-rows: repeat(2, minmax(min-content, max-content));
-  gap: 40px 48px;
+  gap: 48px 40px;
   color: #fff;
 }
 
 
 @media screen and (max-width: 1024px) {
   .place {
-    row-gap: 32px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    row-gap: 28px;
+    gap: 48px 28px;
   }
 }
 

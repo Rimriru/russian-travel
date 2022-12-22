@@ -1,4 +1,6 @@
 .header__lang-box {
   display: flex;
   align-items: flex-end;
+  list-style: none;
+  padding-left: 0;
 }
