@@ -5,6 +5,7 @@
   line-height: 1.17;
   margin: 0;
   transition: opacity .3s ease-in-out;
+  cursor: pointer;
 }
 
 .header__lang-link:hover {
