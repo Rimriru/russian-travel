@@ -1,0 +1,17 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "## О проекте",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "tailwindcss": "^3.3.3"
+  }
+}
