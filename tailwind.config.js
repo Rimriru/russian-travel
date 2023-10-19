@@ -6,10 +6,12 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '320px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      // 'xl': {'max': '1280px'},
+      'lg': {'max': '1024px'},
+      'md': {'max': '768px'},
+      'sm': {'max': '576px'},
+      'pre-xs': {'max': '400px'},
+      'xs': {'max': '320px'},
     },
     colors: {
       darkBg: '#2A2C2F',
@@ -21,15 +23,17 @@ module.exports = {
     },
     maxWidth: {
       '1184': '1184px',
+      '984': '984px',
       '928': '928px',
       '720': '720px',
+      '640': '640px',
       '288': '288px',
       '176': '176px',
       '142': '142px'
     },
     extend: {
       spacing: {
-        
+        '22': '92px',
       }
     }
   },
