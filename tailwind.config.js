@@ -17,6 +17,7 @@ module.exports = {
       darkBg: '#2A2C2F',
       lightBg: '#E8E8E8',
       fontColorDark: '#fff',
+      greyCaption: '#AAAAAA',
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif']
@@ -33,7 +34,9 @@ module.exports = {
     },
     extend: {
       spacing: {
+        '18': '72px',
         '22': '92px',
+        '21': '88px'
       }
     }
   },
