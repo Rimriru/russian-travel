@@ -9,6 +9,7 @@ module.exports = {
       // 'xl': {'max': '1280px'},
       'lg': {'max': '1024px'},
       'md': {'max': '768px'},
+      'pre-sm': {'max': '683px'},
       'sm': {'max': '576px'},
       'pre-xs': {'max': '400px'},
       'xs': {'max': '320px'},
@@ -37,6 +38,9 @@ module.exports = {
         '18': '72px',
         '22': '92px',
         '21': '88px'
+      },
+      backgroundImage: {
+        'baikalImage': "url('../../images/background-trains.jpg')",
       }
     }
   },
