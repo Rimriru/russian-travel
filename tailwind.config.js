@@ -40,7 +40,7 @@ module.exports = {
         '21': '88px'
       },
       backgroundImage: {
-        'baikalImage': "url('../images/background-trains.jpg')",
+        'baikalImage': "url('../../images/background-trains.jpg')",
       }
     }
   },
