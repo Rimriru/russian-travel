@@ -1,148 +1,462 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>По следам России</title>
-  <link rel="stylesheet" href="./public/output.css">
-  <link rel="icon" href="./images/logos/header__logo.png">
-</head>
-<body class="max-w-screen-xl antialiased bg-darkBg text-fontColorDark">
-  <header class="max-w-1184 w-[calc(100%-48px*2)] pt-7 mb-14 mx-auto flex justify-between lg:max-w-928 lg:mb-12 md:max-w-720 md:w-[100%-24px*2] xs:max-w-288 xs:w-[100%-16px*2] xs:pt-4">
-  <img class="max-w-176 pre-xs:max-w-142" src="./images/logos/header__logo.svg" alt="Россия">
-    <ul class="flex items-end gap-[18px]">
-      <li>
-        <a class="max-w-[30px] font-normal text-2xl leading-[1.17] block pb-[5px] cursor-pointer hover:opacity-60 transition-opacity ease-in-out duration-300 pre-xs:max-w-[22px] pre-xs:text-lg pre-xs:leadin-[1.1] pre-xs:p-0" href="#">Ru</a>
-      </li>
-      <li>
-        <a class="max-w-[30px] font-normal text-2xl leading-[1.17] block pb-[5px] cursor-pointer hover:opacity-60 transition-opacity ease-in-out duration-300 pre-xs:max-w-[22px] pre-xs:text-lg pre-xs:leadin-[1.1] pre-xs:p-0" href="#">En</a>
-      </li>
-    </ul>
-  </header>
-  <main>
-    <section class="max-w-984 mx-auto mb-22 text-center lg:max-w-928 md:w-full md:mb-21 xs:mb-[64px]" aria-label="Лид">
-      <h1 class="max-w-720 text-8xl font-black leading-[1.04] mx-auto mb-[32px] md:max-w-[650px] sm:max-w-[550px] sm:text-[68px] pre-xs:max-w-288 pre-xs:text-4xl pre-xs:mb-4">По следам России</h1>
-      <p class="max-w-640 text-3xl leading-[1.2] mx-auto mb-16 lg:mb-14 sm:max-w-[320] sm:text-[25px] sm:leading-[1.22] pre-xs:max-w-[300px] pre-xs:text-xl xs:max-w-288 xs:text-base xs:leading-tight xs:mb-10">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="w-full mx-auto rounded-xl" src="./images/lead__image.jpg" alt="Карта городов России">
-      <p class="max-w-[160px] text-[10px] font-normal leading-[1.4] tracking-[1.5px] uppercase text-left text-greyCaption mt-2 md:ml-6 xs:ml-4">ваша полка — верхняя</p>
-    </section>
-    <section class="max-w-984 mb-22 mx-auto lg:max-w-928 lg:w-[calc(100%-48px)] md:max-w-720 md:w-[calc(100%-24px*2)] md:mx-auto md:mb-21 xs:max-w-288 xs:w-[calc(100%-12px*2)] xs:mb-16" aria-label="Интро">
-      <h2 class="text-[54px] font-black leading-[1.07] sm:text-5xl pre-xs:text-[32px] pre-xs:leading-[1.09]">Чего&nbsp;мы&nbsp;там не&nbsp;видели?</h2>
-      <p class="max-w-[690px] leading-relaxed mt-10 mb-[33px] md:max-w-720">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <ul class="text-xs leading-normal">
-        <li><span class="font-bold">Часовых поясов</span> 11</li>
-        <li><span class="font-bold">Объектов природного наследия ЮНЕСКО</span> 14</li>
-        <li><span class="font-bold">Объектов культурного наследия ЮНЕСКО</span> 19</li>
-        <li><span class="font-bold">Природных заповедников</span> 107</li>
-        <li><span class="font-bold">Аэропортов</span> 254</li>
-      </ul>
-    </section>
-    <section class="max-w-1184 w-[calc(100%-48px*2)] mx-auto mb-22 grid grid-cols-[repeat(4,minmax(200px,1fr))] gap-4 lg:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] lg:gap-[14px] md:w-[calc(100%-24px*2)] md:max-w-720 md:grid-cols-[repeat(2,minmax(200px,1fr))] md:gap-4 md:mb-21 sm:w-[calc(100%-20px*2)] sm:grid-cols-[repeat(1,minmax(200px,1fr))] sm:gap-3 sm:mb-6 xs:max-w-288 xs:w-[calc(100%-16px*2)] xs:grid-cols-1" aria-label="Фотогалерея">
-      <img src="./images/trains.jpg" alt="Вид из поезда" class="w-full rounded-md">
-      <img src="./images/mountain.jpg" alt="Гора с облаками" class="w-full rounded-md">
-      <img src="./images/dog.jpg" alt="Собака на привале" class="w-full rounded-md">
-      <img src="./images/forest.jpg" alt="Зимний лес" class="w-full rounded-md">
-      <img src="./images/baikal.jpg" alt="Машина на Байкале" class="w-full rounded-md">
-      <img src="./images/beach.jpg" alt="Пляж" class="w-full rounded-md">
-      <img src="./images/mountain2.jpg" alt="Гора с белыми верхушками" class="w-full rounded-md">
-      <img src="./images/walker-sign.jpg" alt="Знак пешеходного перехода" class="w-full rounded-md">
-      <img src="./images/mountain3.jpg" alt="Рыжая гора" class="w-full rounded-md">
-      <img src="./images/mountain4.jpg" alt="Поле с горой" class="w-full rounded-md">
-      <img src="./images/mountain5.jpg" alt="Зимняя гора" class="w-full rounded-md">
-      <img src="./images/mountain6.jpg" alt="Гора в тумане" class="w-full rounded-md">
-    </section>
-    <section class="max-w-984 w-[calc(100%-148px*2)] mx-auto mb-22 flex flex-col gap-20 lg:max-w-928 lg:w-[calc(100%-48px*2)] md:max-w-720 md:w-[calc(100%-24px*2)] md:mb-[90px] md:gap-18 sm:max-w-[500px] sm:w-full sm:gap-[61px] xs:mb-[66px] xs:gap-[50px]" aria-label="Популярные места России">
-      <article class="w-full grid grid-cols-[max-content,fit-content(90%)] gap-y-12 gap-x-10 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8">
-        <h3 class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]">Куршская коса</h3>
-        <div class="max-w-[476px] flex flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288">
-          <p class="text-xs leading-none tracking-[2px] text-greyCaption">URL</p>
-          <a class="text-lg leading-tight hover:opacity-60 transition-opacity ease-in-out duration-300" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
-        </div>
-        <img class="max-w-[460px] rounded-lg lg:max-w-[440px] md:340px sm:w-full sm:mx-auto" src="./images/kosa.jpg" alt="Куршская коса">
-        <div>
-          <p class="max-w-[484px] text-lg leading-relaxed mb-[26px] lg:max-w-[456px] md:text-base md:mb-[25px] sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
-          <p class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">На этом Калининградская область не&nbsp;заканчивается. Для путешественника и исследователя там же по&nbsp;соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и запах стального, прохладного моря.</p>
-        </div>
-      </article>
-      <article class="w-full grid grid-cols-[max-content,fit-content(90%)] gap-y-12 gap-x-10 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8">
-        <h3 class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]">Красная поляна</h3>
-        <div class="max-w-[476px] flex flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288">
-          <p class="text-xs leading-none tracking-[2px] text-greyCaption">URL</p>
-          <a class="text-lg leading-tight hover:opacity-60 transition-opacity ease-in-out duration-300" href="https://krasnayapolyanaresort.ru/" target="_blank">Курорт</a>
-        </div>
-        <img class="max-w-[460px] rounded-lg lg:max-w-[440px] md:340px sm:w-full sm:mx-auto" src="./images/krasnaya-polyana.jpg" alt="Красная поляна">
-        <div>
-          <p class="max-w-[484px] text-lg leading-relaxed mb-[26px] lg:max-w-[456px] md:text-base md:mb-[25px] sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Приезжая на отдых в Сочи, многие туристы стремятся посетить также Красную Поляну. Всё благодаря огромному количеству знаковых мест и развлечений, доступных здесь в любое время года. Зимой горный курорт оккупируют лыжники и сноубордисты, а летом в Красную Поляну приезжают, чтобы заняться треккингом, хайкингом и альпинизмом, а также изучить многочисленные природные ключевые места.</p>
-          <p class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Красная Поляна — территория, насыщенная ключевыми местами, на осмотр которых может не хватить одного визита. Кто-то вдохновится местной природой, кто-то — историей древних цивилизаций, а кто-то — возможностью подышать свежим горным воздухом.</p>
-        </div>
-      </article>
-      <article class="w-full grid grid-cols-[max-content,fit-content(90%)] gap-y-12 gap-x-10 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8">
-        <h3 class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]">Алтай</h3>
-        <div class="max-w-[476px] flex flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288">
-          <p class="text-xs leading-none tracking-[2px] text-greyCaption">URL</p>
-          <a class="text-lg leading-tight hover:opacity-60 transition-opacity ease-in-out duration-300" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
-        </div>
-        <img class="max-w-[460px] rounded-lg lg:max-w-[440px] md:340px sm:w-full sm:mx-auto" src="./images/altai.jpg" alt="Алтай">
-        <div>
-          <p class="max-w-[484px] text-lg leading-relaxed mb-[26px] lg:max-w-[456px] md:text-base md:mb-[25px] sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А&nbsp;если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
-          <p class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
-        </div>
-      </article>
-      <article class="w-full grid grid-cols-[max-content,fit-content(90%)] gap-y-12 gap-x-10 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8">
-        <h3 class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]">Зимний Байкал</h3>
-        <div class="max-w-[476px] flex flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288">
-          <p class="text-xs leading-none tracking-[2px] text-greyCaption">URL</p>
-          <a class="text-lg leading-tight hover:opacity-60 transition-opacity ease-in-out duration-300" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
-        </div>
-        <img class="max-w-[460px] rounded-lg lg:max-w-[440px] md:340px sm:w-full sm:mx-auto" src="./images/winter-baikal.jpg" alt="Замёрзший Байкал">
-        <div>
-          <p class="max-w-[484px] text-lg leading-relaxed mb-[26px] lg:max-w-[456px] md:text-base md:mb-[25px] sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
-          <p class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
-        </div>
-      </article>
-      <article class="w-full grid grid-cols-[max-content,fit-content(90%)] gap-y-12 gap-x-10 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8">
-        <h3 class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]">Карелия</h3>
-        <div class="max-w-[476px] flex flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288">
-          <p class="text-xs leading-none tracking-[2px] text-greyCaption">URL</p>
-          <a class="text-lg leading-tight hover:opacity-60 transition-opacity ease-in-out duration-300" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a>
-        </div>
-        <img class="max-w-[460px] rounded-lg lg:max-w-[440px] md:340px sm:w-full sm:mx-auto" src="./images/karelia.jpg" alt="Озеро и лес">
-        <div>
-          <p class="max-w-[484px] text-lg leading-relaxed mb-[26px] lg:max-w-[456px] md:text-base md:mb-[25px] sm:w-[calc(100%-16px*2)] sm:mx-auto xs:max-w-288">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-        </div>
-      </article>
-    </section>
-    <section class="max-w-1184 max-h-[740px] mx-auto mb-22 text-center relative lg:w-full md:mb-21 xs:mb-16">
-      <a class="before:content-[' '] before:bg-darkBg before:w-full before:h-full before:opacity-30 before:rounded-xl before:absolute before:top-0 before:left-0 before:z-[3] before:transition-opacity before:ease-in-out before:duration-500 hover:before:opacity-80" href="https://stampsy.com/na-elektrichkakh-do-baikala"
-      target="_blank">
-        <h2 class="max-w-[560px] pt-[245px] text-7xl font-black leading-[1.06] mb-32px mx-auto relative z-[4] lg:pt-[192px] md:pt-[115px] sm:max-w-[350px] sm:pt-22 sm:text-[45px] sm:leading-[1.08] sm:mb-5 pre-xs:max-w-288 pre-xs:pt-[33px] pre-xs:text-[32px] pre-xs:leading-[1.09] pre-xs:mb-4">До Байкала «на&nbsp;собаках»</h2>
-        <p class="max-w-[360px] text-lg leading-tight mx-auto pb-[245px] relative z-[3] lg:pb-[195px] md:pb-[115px] pre-xs:pb-[35px] pre-xs:text-sm xs:leading-[1.14]">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        <div class="bg-baikalImage bg-no-repeat bg-center bg-cover w-full h-full min-h-[200px] absolute top-0 left-0 z-[1] rounded-xl lg:max-h-full"></div>
-      </a>
-    </section>
-  </main>
-  <footer class="max-w-1184 w-[calc(100%-48px*2)] mx-auto pb-6 flex justify-between items-baseline md:w-[calc(100%-24px*2)] pre-sm:flex-col pre-sm:gap-12 xs:w-[calc(100%-16px*2)]">
-    <nav>
-      <ul class="flex gap-[18px] sm:flex-col sm:gap-[25px] xs:gap-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-translate="title">По следам России</title>
+    <link rel="stylesheet" href="./public/output.css" />
+    <link rel="icon" href="./images/logos/header__logo.png" />
+  </head>
+  <body class="max-w-screen-xl bg-darkBg text-fontColorDark antialiased">
+    <header
+      class="mx-auto mb-14 flex w-[calc(100%-48px*2)] max-w-1184 justify-between pt-7 lg:mb-12 lg:max-w-928 md:w-[100%-24px*2] md:max-w-720 xs:w-[100%-16px*2] xs:max-w-288 xs:pt-4"
+    >
+      <img
+        class="max-w-176 pre-xs:max-w-142"
+        src="./images/logos/header__logo.svg"
+        alt="Россия"
+      />
+      <ul class="flex items-end gap-[18px]">
         <li>
-          <a href="https://yandex.ru/maps" class="leading-[1.12] hover:opacity-60 transition-opacity ease-in-out duration-300 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none">Карты</a>
+          <a
+            class="pre-xs:leading-[1.1] block max-w-[30px] cursor-pointer pb-[5px] text-2xl font-normal leading-[1.17] transition-opacity duration-300 ease-in-out hover:opacity-60 pre-xs:max-w-[22px] pre-xs:p-0 pre-xs:text-lg"
+            href="#"
+            >Ru</a
+          >
         </li>
         <li>
-          <a href="https://yandex.ru/pogoda" class="leading-[1.12] hover:opacity-60 transition-opacity ease-in-out duration-300 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none">Погода</a>
-        </li>
-        <li>
-          <a href="https://rasp.yandex.ru" class="leading-[1.12] hover:opacity-60 transition-opacity ease-in-out duration-300 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none">Расписание</a>
-        </li>
-        <li>
-          <a href="https://calendar.yandex.ru" class="leading-[1.12] hover:opacity-60 transition-opacity ease-in-out duration-300 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none">Календарь</a>
-        </li>
-        <li>
-          <a href="https://travel.yandex.ru" class="leading-[1.12] hover:opacity-60 transition-opacity ease-in-out duration-300 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none">Путешествия</a>
+          <a
+            class="pre-xs:leading-[1.1] block max-w-[30px] cursor-pointer pb-[5px] text-2xl font-normal leading-[1.17] transition-opacity duration-300 ease-in-out hover:opacity-60 pre-xs:max-w-[22px] pre-xs:p-0 pre-xs:text-lg"
+            href="#"
+            >En</a
+          >
         </li>
       </ul>
-    </nav>
-    <p class="max-w-[186px] text-sm leading-[1.14] xs:leading-none">&copy; 2023. Данилова Мария</p>
-  </footer>
-</body>
+    </header>
+    <main>
+      <section
+        class="mx-auto mb-22 max-w-984 text-center lg:max-w-928 md:mb-21 md:w-full xs:mb-[64px]"
+        aria-label="Лид"
+      >
+        <h1
+          class="mx-auto mb-[32px] max-w-720 text-8xl font-black leading-[1.04] md:max-w-[650px] sm:max-w-[550px] sm:text-[68px] pre-xs:mb-4 pre-xs:max-w-288 pre-xs:text-4xl" data-translate="lead-heading"
+        >
+          По следам России
+        </h1>
+        <p
+          class="mx-auto mb-16 max-w-640 text-3xl leading-[1.2] lg:mb-14 sm:max-w-[320] sm:text-[25px] sm:leading-[1.22] pre-xs:max-w-[300px] pre-xs:text-xl xs:mb-10 xs:max-w-288 xs:text-base xs:leading-tight" data-translate="lead-subheading"
+        >
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
+        <img
+          class="mx-auto w-full rounded-xl"
+          src="./images/lead__image.jpg"
+          alt="Карта городов России"
+        />
+        <p
+          class="mt-2 max-w-[160px] text-left text-[10px] font-normal uppercase leading-[1.4] tracking-[1.5px] text-greyCaption md:ml-6 xs:ml-4" data-translate="lead-caption"
+        >
+          ваша полка — верхняя
+        </p>
+      </section>
+      <section
+        class="mx-auto mb-22 max-w-984 lg:w-[calc(100%-48px)] lg:max-w-928 md:mx-auto md:mb-21 md:w-[calc(100%-24px*2)] md:max-w-720 xs:mb-16 xs:w-[calc(100%-12px*2)] xs:max-w-288"
+        aria-label="Интро"
+      >
+        <h2
+          class="text-[54px] font-black leading-[1.07] sm:text-5xl pre-xs:text-[32px] pre-xs:leading-[1.09]" data-translate="intro-heading"
+        >
+          Чего&nbsp;мы&nbsp;там не&nbsp;видели?
+        </h2>
+        <p class="mb-[33px] mt-10 max-w-[690px] leading-relaxed md:max-w-720" data-translate="intro-subheading">
+          По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+          36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
+          не видели? На самом деле, Россия — это целая вселенная с ласковым
+          морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё
+          увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
+          многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая
+          мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
+          проехала 20 тысяч километров по родной стране. Мы выбрали и описали
+          некоторые интересные места, достойные вашего отпуска.
+        </p>
+        <ul class="text-xs leading-normal">
+          <li><span class="font-bold" data-translate="intro-timezones">Часовых поясов</span> 11</li>
+          <li>
+            <span class="font-bold" data-translate="intro-natural-heritage">Объектов природного наследия ЮНЕСКО</span>
+            14
+          </li>
+          <li>
+            <span class="font-bold" data-translate="intro-cultural-heritage">Объектов культурного наследия ЮНЕСКО</span>
+            19
+          </li>
+          <li><span class="font-bold" data-translate="intro-parks">Природных заповедников</span> 107</li>
+          <li><span class="font-bold" data-translate="intro-airports">Аэропортов</span> 254</li>
+        </ul>
+      </section>
+      <section
+        class="mx-auto mb-22 grid w-[calc(100%-48px*2)] max-w-1184 grid-cols-[repeat(4,minmax(200px,1fr))] gap-4 lg:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] lg:gap-[14px] md:mb-21 md:w-[calc(100%-24px*2)] md:max-w-720 md:grid-cols-[repeat(2,minmax(200px,1fr))] md:gap-4 sm:mb-6 sm:w-[calc(100%-20px*2)] sm:grid-cols-[repeat(1,minmax(200px,1fr))] sm:gap-3 xs:w-[calc(100%-16px*2)] xs:max-w-288 xs:grid-cols-1"
+        aria-label="Фотогалерея"
+      >
+        <img
+          src="./images/trains.jpg"
+          alt="Вид из поезда"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/mountain.jpg"
+          alt="Гора с облаками"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/dog.jpg"
+          alt="Собака на привале"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/forest.jpg"
+          alt="Зимний лес"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/baikal.jpg"
+          alt="Машина на Байкале"
+          class="w-full rounded-md"
+        />
+        <img src="./images/beach.jpg" alt="Пляж" class="w-full rounded-md" />
+        <img
+          src="./images/mountain2.jpg"
+          alt="Гора с белыми верхушками"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/walker-sign.jpg"
+          alt="Знак пешеходного перехода"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/mountain3.jpg"
+          alt="Рыжая гора"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/mountain4.jpg"
+          alt="Поле с горой"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/mountain5.jpg"
+          alt="Зимняя гора"
+          class="w-full rounded-md"
+        />
+        <img
+          src="./images/mountain6.jpg"
+          alt="Гора в тумане"
+          class="w-full rounded-md"
+        />
+      </section>
+      <section
+        class="mx-auto mb-22 flex w-[calc(100%-148px*2)] max-w-984 flex-col gap-20 lg:w-[calc(100%-48px*2)] lg:max-w-928 md:mb-[90px] md:w-[calc(100%-24px*2)] md:max-w-720 md:gap-18 sm:w-full sm:max-w-[500px] sm:gap-[61px] xs:mb-[66px] xs:gap-[50px]"
+        aria-label="Популярные места России"
+      >
+        <article
+          class="grid w-full grid-cols-[max-content,fit-content(90%)] gap-x-10 gap-y-12 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8"
+        >
+          <h3
+            class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]" data-translate="spit-heading"
+          >
+            Куршская коса
+          </h3>
+          <div
+            class="flex max-w-[476px] flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288"
+          >
+            <p class="text-xs leading-none tracking-[2px] text-greyCaption">
+              URL
+            </p>
+            <a
+              class="text-lg leading-tight transition-opacity duration-300 ease-in-out hover:opacity-60"
+              href="http://park-kosa.ru"
+              target="_blank"
+              >park-kosa.ru</a
+            >
+          </div>
+          <img
+            class="md:340px max-w-[460px] rounded-lg lg:max-w-[440px] sm:mx-auto sm:w-full"
+            src="./images/kosa.jpg"
+            alt="Куршская коса"
+          />
+          <div>
+            <p
+              class="mb-[26px] max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:mb-[25px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="spit-first-paragraph"
+            >
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+              горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p
+              class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="spit-second-paragraph"
+            >
+              На этом Калининградская область не&nbsp;заканчивается. Для
+              путешественника и исследователя там же по&nbsp;соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в&nbsp;спокойствие природы и запах
+              стального, прохладного моря.
+            </p>
+          </div>
+        </article>
+        <article
+          class="grid w-full grid-cols-[max-content,fit-content(90%)] gap-x-10 gap-y-12 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8"
+        >
+          <h3
+            class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]" data-translate="polyana-heading"
+          >
+            Красная поляна
+          </h3>
+          <div
+            class="flex max-w-[476px] flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288"
+          >
+            <p class="text-xs leading-none tracking-[2px] text-greyCaption">
+              URL
+            </p>
+            <a
+              class="text-lg leading-tight transition-opacity duration-300 ease-in-out hover:opacity-60"
+              href="https://krasnayapolyanaresort.ru/"
+              target="_blank" data-translate="polyana-link"
+              >Курорт</a
+            >
+          </div>
+          <img
+            class="md:340px max-w-[460px] rounded-lg lg:max-w-[440px] sm:mx-auto sm:w-full"
+            src="./images/krasnaya-polyana.jpg"
+            alt="Красная поляна"
+          />
+          <div>
+            <p
+              class="mb-[26px] max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:mb-[25px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="polyana-first-paragraph"
+            >
+              Приезжая на отдых в Сочи, многие туристы стремятся посетить также
+              Красную Поляну. Всё благодаря огромному количеству знаковых мест и
+              развлечений, доступных здесь в любое время года. Зимой горный
+              курорт оккупируют лыжники и сноубордисты, а летом в Красную Поляну
+              приезжают, чтобы заняться треккингом, хайкингом и альпинизмом, а
+              также изучить многочисленные природные ключевые места.
+            </p>
+            <p
+              class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="polyana-second-paragraph"
+            >
+              Красная Поляна — территория, насыщенная ключевыми местами, на
+              осмотр которых может не хватить одного визита. Кто-то вдохновится
+              местной природой, кто-то — историей древних цивилизаций, а кто-то
+              — возможностью подышать свежим горным воздухом.
+            </p>
+          </div>
+        </article>
+        <article
+          class="grid w-full grid-cols-[max-content,fit-content(90%)] gap-x-10 gap-y-12 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8"
+        >
+          <h3
+            class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]" data-translate="altai-heading"
+          >
+            Алтай
+          </h3>
+          <div
+            class="flex max-w-[476px] flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288"
+          >
+            <p class="text-xs leading-none tracking-[2px] text-greyCaption">
+              URL
+            </p>
+            <a
+              class="text-lg leading-tight transition-opacity duration-300 ease-in-out hover:opacity-60"
+              href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
+              target="_blank"
+              >YouTube</a
+            >
+          </div>
+          <img
+            class="md:340px max-w-[460px] rounded-lg lg:max-w-[440px] sm:mx-auto sm:w-full"
+            src="./images/altai.jpg"
+            alt="Алтай"
+          />
+          <div>
+            <p
+              class="mb-[26px] max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:mb-[25px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="altai-first-paragraph"
+            >
+              Алтай — одно из красивейших мест в России. В первую очередь из-за
+              гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
+              соснами, горные реки и озёра. А&nbsp;если вы откроете в автомобиле
+              окна, сможете познакомиться с невидимым чудом здешних мест —
+              горным воздухом.
+            </p>
+            <p
+              class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="altai-second-paragraph"
+            >
+              Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
+              Так вы увидите всё разнообразие местной флоры и фауны. По лесам
+              Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся
+              косули. И знаменитые манулы — тоже обитатели Алтайского края.
+            </p>
+          </div>
+        </article>
+        <article
+          class="grid w-full grid-cols-[max-content,fit-content(90%)] gap-x-10 gap-y-12 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8"
+        >
+          <h3
+            class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]" data-translate="baikal-heading"
+          >
+            Зимний Байкал
+          </h3>
+          <div
+            class="flex max-w-[476px] flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288"
+          >
+            <p class="text-xs leading-none tracking-[2px] text-greyCaption">
+              URL
+            </p>
+            <a
+              class="text-lg leading-tight transition-opacity duration-300 ease-in-out hover:opacity-60"
+              href="https://vk.com/baikalmile"
+              target="_blank"
+              >https://vk.com/baikalmile</a
+            >
+          </div>
+          <img
+            class="md:340px max-w-[460px] rounded-lg lg:max-w-[440px] sm:mx-auto sm:w-full"
+            src="./images/winter-baikal.jpg"
+            alt="Замёрзший Байкал"
+          />
+          <div>
+            <p
+              class="mb-[26px] max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:mb-[25px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="bailkal-first-paragraph"
+            >
+              Всем известен Байкал как крупнейшее озеро в мире. Многие также
+              знают, что это самый большой источник пресной воды и одно из
+              красивейших мест в России.
+            </p>
+            <p
+              class="max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="bailkal-second-paragraph"
+            >
+              Конечно, это всё так. Но Байкал ещё идеальное место
+              для соревнований по скийорингу. Это такой вид спорта, когда лыжник
+              привязывает себя к мотоциклу, и тандем старается развить как можно
+              бóльшую скорость на льду. В марте 2019 года на фестивале
+              «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+            </p>
+          </div>
+        </article>
+        <article
+          class="grid w-full grid-cols-[max-content,fit-content(90%)] gap-x-10 gap-y-12 lg:gap-x-8 md:gap-x-7 pre-sm:grid-cols-1 pre-sm:gap-8"
+        >
+          <h3
+            class="max-w-[460px] text-7xl font-black leading-[1.06] lg:max-w-[440px] md:max-w-[330px] md:text-[42px] md:leading-[1.1] sm:ml-4 xs:max-w-288 xs:text-[32px] xs:leading-[1.09]" data-translate="karelia-heading"
+          >
+            Карелия
+          </h3>
+          <div
+            class="flex max-w-[476px] flex-col justify-end gap-3 md:max-w-[352px] sm:ml-4 xs:max-w-288"
+          >
+            <p class="text-xs leading-none tracking-[2px] text-greyCaption">
+              URL
+            </p>
+            <a
+              class="text-lg leading-tight transition-opacity duration-300 ease-in-out hover:opacity-60"
+              href="http://vodlozero.ru"
+              target="_blank"
+              >http://vodlozero.ru</a
+            >
+          </div>
+          <img
+            class="md:340px max-w-[460px] rounded-lg lg:max-w-[440px] sm:mx-auto sm:w-full"
+            src="./images/karelia.jpg"
+            alt="Озеро и лес"
+          />
+          <div>
+            <p
+              class="mb-[26px] max-w-[484px] text-lg leading-relaxed lg:max-w-[456px] md:mb-[25px] md:text-base sm:mx-auto sm:w-[calc(100%-16px*2)] xs:max-w-288" data-translate="karelia-paragraph"
+            >
+              Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
+              сибирская лиственница не растёт западнее Водлозера. Зато здесь она
+              вымахивает на 30 метров — леса карельских национальных парков
+              из-за непроходимых болот никогда не знали топора. Некоторым соснам
+              уже больше чем полтысячелетия. Прикоснитесь к живому существу,
+              видевшему солнце раньше, чем увидал его Иван Грозный. В
+              девственном лесу на сотню километров не встретишь тропы. А на
+              редких тропинках деревья в паре метров от земли помечены
+              медвежьими когтями. Чтобы все знали, кто тут хозяин.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section
+        class="relative mx-auto mb-22 max-h-[740px] max-w-1184 text-center lg:w-full md:mb-21 xs:mb-16" aria-label="Кавер"
+      >
+        <a
+          class="before:content-[' '] before:absolute before:left-0 before:top-0 before:z-[3] before:h-full before:w-full before:rounded-xl before:bg-darkBg before:opacity-30 before:transition-opacity before:duration-500 before:ease-in-out hover:before:opacity-80"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
+          <h2
+            class="mb-32px relative z-[4] mx-auto max-w-[560px] pt-[245px] text-7xl font-black leading-[1.06] lg:pt-[192px] md:pt-[115px] sm:mb-5 sm:max-w-[350px] sm:pt-22 sm:text-[45px] sm:leading-[1.08] pre-xs:mb-4 pre-xs:max-w-288 pre-xs:pt-[33px] pre-xs:text-[32px] pre-xs:leading-[1.09]" data-translate="cover-heading"
+          >
+            До Байкала «на&nbsp;собаках»
+          </h2>
+          <p
+            class="relative z-[3] mx-auto max-w-[360px] pb-[245px] text-lg leading-tight lg:pb-[195px] md:pb-[115px] pre-xs:pb-[35px] pre-xs:text-sm xs:leading-[1.14]" data-translate="cover-subheading"
+          >
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
+          <div
+            class="absolute left-0 top-0 z-[1] h-full min-h-[200px] w-full rounded-xl bg-baikalImage bg-cover bg-center bg-no-repeat lg:max-h-full"
+          ></div>
+        </a>
+      </section>
+    </main>
+    <footer
+      class="mx-auto flex w-[calc(100%-48px*2)] max-w-1184 items-baseline justify-between pb-6 md:w-[calc(100%-24px*2)] pre-sm:flex-col pre-sm:gap-12 xs:w-[calc(100%-16px*2)]"
+    >
+      <nav>
+        <ul class="flex gap-[18px] sm:flex-col sm:gap-[25px] xs:gap-8">
+          <li>
+            <a
+              href="https://yandex.ru/maps"
+              class="leading-[1.12] transition-opacity duration-300 ease-in-out hover:opacity-60 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none" data-translate="maps"
+              >Карты</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://yandex.ru/pogoda"
+              class="leading-[1.12] transition-opacity duration-300 ease-in-out hover:opacity-60 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none" data-translate="weather"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rasp.yandex.ru"
+              class="leading-[1.12] transition-opacity duration-300 ease-in-out hover:opacity-60 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none" data-translate="schedule"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://calendar.yandex.ru"
+              class="leading-[1.12] transition-opacity duration-300 ease-in-out hover:opacity-60 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none" data-translate="calendar"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://travel.yandex.ru"
+              class="leading-[1.12] transition-opacity duration-300 ease-in-out hover:opacity-60 sm:text-xl sm:leading-[1.05] xs:text-2xl xs:leading-none" data-translate="trips"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <p class="max-w-[186px] text-sm leading-[1.14] xs:leading-none" data-translate="copyright">
+        &copy; 2023. Данилова Мария
+      </p>
+    </footer>
+  </body>
 </html>

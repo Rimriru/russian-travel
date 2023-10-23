@@ -1356,6 +1356,10 @@ video {
   .pre-xs\:leading-\[1\.09\] {
     line-height: 1.09;
   }
+
+  .pre-xs\:leading-\[1\.1\] {
+    line-height: 1.1;
+  }
 }
 
 @media (max-width: 320px) {
