@@ -21,7 +21,7 @@ module.exports = {
       greyCaption: '#AAAAAA',
     },
     fontFamily: {
-      sans: ['Inter', 'sans-serif']
+      sans: ['Inter', 'sans-serif'],
     },
     maxWidth: {
       '1184': '1184px',
@@ -40,7 +40,7 @@ module.exports = {
         '21': '88px'
       },
       backgroundImage: {
-        'baikalImage': "url('../images/background-trains.jpg')",
+        'baikalImage': "url('../../images/background-trains.jpg')",
       }
     }
   },
