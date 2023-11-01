@@ -748,6 +748,10 @@ video {
   row-gap: 3rem;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -765,6 +769,10 @@ video {
   background-color: rgb(42 44 47 / var(--tw-bg-opacity));
 }
 
+.bg-glass {
+  background-color: rgba(239,239,239,0.15);
+}
+
 .bg-baikalImage {
   background-image: url('../images/background-trains.jpg');
 }
@@ -779,6 +787,10 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .pb-6 {
@@ -934,9 +946,19 @@ video {
   color: rgb(170 170 170 / var(--tw-text-opacity));
 }
 
+.overline {
+  text-decoration-line: overline;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition-opacity {

@@ -1,9 +1,9 @@
-{
+const enTranslation = {
   "title": "Russian Travel",
   "lead-heading": "Russian Travel",
   "lead-subheading": "The real country is not in the news, but here.",
   "lead-caption": "your shelf is the top one",
-  "intro-heading": "What&nbsp;we&nbsp;didn't&nbsp;see there?",
+  "intro-heading": "What we didn't see there?",
   "intro-subheading": "According to VCIOM polls, 95% of Russians dream of traveling somewhere, but only 36% plan to spend their holidays in their home country. Like, what haven’t we seen here at home? In fact, Russia is a whole universe with the gentle sea of the south, the dense forests of the Sayan Mountains and the harsh ice of the Putorana plateau. And you can see all these beauties without millions in your account, a foreign passport and many hours of flights. Like, for example, Vera Bashmakova, a brave young mother who grabbed three children, put them in her Lada and drove 20 thousand kilometers around her native country. We have selected and described some interesting places worthy of your holiday.",
   "intro-timezones": "Timezones",
   "intro-natural-heritage": "UNESCO Natural Heritage Sites",
@@ -25,12 +25,14 @@
   "bailkal-second-paragraph": "Of course, this is all true. But Baikal is also an ideal place for skioring competitions. This is a sport where a skier straps himself to a motorcycle and the tandem tries to develop as much speed as possible on the ice. In March 2019, at the Baikal Mile festival, a world record was set - 197.011 km/h.",
   "karelia-heading": "Karelia",
   "karelia-paragraph": "Siberia ends not in the Urals, but in Karelia: the Siberian larch that forms the taiga does not grow west of Vodlozero. But here it reaches 30 meters — the forests of Karelian national parks have never seen an axe, due to impenetrable swamps. Some pine trees are already more than half a millennium old. Touch a living creature that saw the sun before Ivan the Terrible saw it. In a virgin forest you won’t find a trail for a hundred kilometers. And on rare paths, trees a couple of meters from the ground are marked with bear claws. So that everyone knows who is the boss here.",
-  "cover-heading": "To Baikal “on&nbsp;dogs”»",
+  "cover-heading": "To Baikal «on dogs»",
   "cover-subheading": "Based on the educational topic about the Trans-Siberian Railway - a journey from the capital to Lake Baikal by train.",
   "maps": "Maps",
-  "wheather": "Weather",
+  "weather": "Weather",
   "schedule": "Schedule",
   "calendar": "Calendar",
   "trips": "Trips",
-  "copyright": "&copy; 2023. Danilova Maria"
+  "copyright": "© 2023. Danilova Maria"
 }
+
+export default enTranslation;

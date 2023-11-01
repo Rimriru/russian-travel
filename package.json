@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "## О проекте",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build:css": "tailwindcss build -i ./src/input.css -o ./public/output.css --watch"
   },

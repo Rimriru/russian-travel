@@ -6,7 +6,6 @@ module.exports = {
   ],
   theme: {
     screens: {
-      // 'xl': {'max': '1280px'},
       'lg': {'max': '1024px'},
       'md': {'max': '768px'},
       'pre-sm': {'max': '683px'},
@@ -17,6 +16,7 @@ module.exports = {
     colors: {
       darkBg: '#2A2C2F',
       lightBg: '#E8E8E8',
+      glass: 'rgba(239,239,239,0.15)',
       fontColorDark: '#fff',
       greyCaption: '#AAAAAA',
     },
