@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hidden {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 1s .2s, transform 1s;
+  }
+
+  .shown {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  a.active:after {
+    width: 100%;
+    left: 0;
+  }
+}
